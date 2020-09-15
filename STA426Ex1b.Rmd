@@ -1,0 +1,39 @@
+---
+title: "Exercise 1b"
+author: "Julian Vogel"
+date: "15 September 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+At first lets create those 100 random values from the normal distribution:
+
+```{r,echo=TRUE}
+x<-rnorm(100, mean = 1, sd=0.25)
+```
+
+After that we figure out the exact mean and variance of those 100 random values:
+
+```{r,echo=TRUE}
+mean(x)
+var(x)
+```
+ And now we do the exact same thing as before, with one minor change: Instead of x we take log(x) : 
+```{r,echo=TRUE}
+mean(log(x))
+var(log(x))
+```
+ 
+## Including Plots
+
+And in finalizing this exercise, we create the histograms for x and log(x)
+```{r, echo=TRUE}
+hist(x)
+hist(log(x))
+```
+
