@@ -1,5 +1,4 @@
 # README
-first try
 
 
 soooo ... lets add a picture:
@@ -22,4 +21,6 @@ And since I'm not that fond of decisions, lets add another:
 
 https://www.youtube.com/watch?v=gGLebmo6oNM
 
-I guess that's it from my side, bye:)
+So, I guess that's it, bye:)
+
+
